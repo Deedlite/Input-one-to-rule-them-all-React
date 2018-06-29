@@ -6,14 +6,19 @@ import React from 'react';
 /**
  * Local import
  */
-
+import Input from 'src/containers/Input';
+import InputAll from 'src/containers/InputAll';
 
 /**
  * Code
  */
 const App = () => (
   <div id="app">
-    Hello World
+    <InputAll name="inputAll" />
+    <Input name="input1" />
+    <Input name="input2" />
+    <Input name="input3" />
+    <Input name="input4" />
   </div>
 );
 
